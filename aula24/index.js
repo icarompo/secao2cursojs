@@ -19,3 +19,21 @@ console.log(text.lastIndexOf("cky"));
 //can receive index to start searching by
 console.log(text.indexOf("cky", 3));
 
+//can replace sentences
+console.log(text.replace("Rocky", "Ferg"));
+
+//return the lenght of the string(Should return 10)
+console.log(text.length);
+
+//return the selected string between the two parameters(Should return "Rocky")
+console.log(text.slice(5,10));
+
+//return the selected string splited into an array
+console.log(text.split(' '));
+//can also receive an parameter to limit the quantity of the return
+console.log(text.split(' ', 1));
+
+//return the var with all letters in upper case
+console.log(text.toUpperCase());
+//have also the lower case variant
+console.log(text.toLowerCase());
